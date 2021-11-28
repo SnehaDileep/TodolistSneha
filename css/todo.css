@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+body
+{   
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+    
+}
+.nav-link
+{
+    color: #000;
+    font-size: 95%;
+    font-weight: bold;
+    padding: 3px;
+}
+p{
+
+    color: rgb(239, 241, 240);
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 10px; 
+    position: relative;
+    font-size:larger;
+    line-height: 1.2 ;
+    padding: 50px;
+    padding-right: 50px;
+    background: rgb(0,0,0,0.5);
+    position: relative;	
+	box-shadow: 0px 0px 24px #ffffff;
+
+     
+}
+
+.form-check-input {
+  vertical-align: text-top;
+  width: 20px;
+  height: auto;
+  position: relative;
+  margin: 20px auto;
+  background: white;
+} 
+
+.new{
+    line-height: 1.5;
+}
+ @media screen and (max-width:550px) {
+    
+    p{
+        width: 90%;
+    }
+    
+} 
